@@ -28,6 +28,11 @@ body {
     align-items: center;
 }
 
+.links p a {
+    text-decoration: none;
+    color: #181717;
+}
+
 .links p:not(:last-child) {
     margin-right: 30px;
 }
@@ -50,7 +55,7 @@ body {
 }
 
 .arrow {
-    background-image: url(./assets/arrow.png);
+    background-image: url(../assets/arrow.png);
     width: 33px;
     height: 39px;
     background-repeat: no-repeat;
