@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F3F3F3;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 500;
+    width: 1120px;
+    margin: auto;
+    color: #181717;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar h2 {
+    font-size: 50px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links p:not(:last-child) {
+    margin-right: 30px;
+}
+
+.intro-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 128px;
+}
+
+.intro-section p {
+    color: #606060;
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 35px;
+}
+
+.intro-section h2 {
+    font-size: 60px;
+}
+
+.arrow {
+    background-image: url(./assets/arrow.png);
+    width: 33px;
+    height: 39px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 128px;
+}
+
+.portfolio-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 83px;
+
+}
+
+.about-portfolio h3 {
+    font-size: 24px;
+}
+
+.project-description {
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.project-technologies {
+    font-weight: 400;
+    color: #606060;
+    margin-top: 55px;
+}
+
+.project-more {
+    text-decoration: underline;
+    margin-top: 145px;
+}
+
+.img {
+    background: #606060;
+    width: 640px;
+    height: 365px;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #181717;
+    margin-top: 106px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.brand {
+    color: #2429AF;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer-links p:not(:last-child) {
+    margin-right: 30px;
+}
